@@ -77,7 +77,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1238, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1124, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -98,10 +98,10 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripDropDownButton1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 658);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 622);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1238, 23);
+            this.statusStrip1.Size = new System.Drawing.Size(1124, 23);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -127,7 +127,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 27);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1238, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1124, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -148,7 +148,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 52);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1238, 606);
+            this.tabControl1.Size = new System.Drawing.Size(1124, 570);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -157,7 +157,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1230, 576);
+            this.tabPage1.Size = new System.Drawing.Size(1116, 540);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -176,11 +176,12 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.46313F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.536862F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 41F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1224, 570);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1110, 534);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // splitContainer1
             // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(3, 3);
             this.splitContainer1.Name = "splitContainer1";
@@ -192,8 +193,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.treeView1);
-            this.splitContainer1.Size = new System.Drawing.Size(1218, 498);
-            this.splitContainer1.SplitterDistance = 940;
+            this.splitContainer1.Size = new System.Drawing.Size(1104, 464);
+            this.splitContainer1.SplitterDistance = 927;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
@@ -204,7 +205,7 @@
             this.axPlayer1.Location = new System.Drawing.Point(0, 0);
             this.axPlayer1.Name = "axPlayer1";
             this.axPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axPlayer1.OcxState")));
-            this.axPlayer1.Size = new System.Drawing.Size(940, 498);
+            this.axPlayer1.Size = new System.Drawing.Size(925, 462);
             this.axPlayer1.TabIndex = 0;
             this.axPlayer1.OnMessage += new AxAPlayer3Lib._IPlayerEvents_OnMessageEventHandler(this.axPlayer1_OnMessage);
             // 
@@ -213,7 +214,7 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(274, 498);
+            this.treeView1.Size = new System.Drawing.Size(171, 462);
             this.treeView1.TabIndex = 0;
             this.treeView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.treeView1_MouseDoubleClick);
             // 
@@ -229,9 +230,9 @@
             this.flowLayoutPanel1.Controls.Add(this.button5);
             this.flowLayoutPanel1.Controls.Add(this.button6);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 531);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 495);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1218, 36);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1104, 36);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // button1
@@ -282,12 +283,12 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(458, 3);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(490, 23);
+            this.textBox3.Size = new System.Drawing.Size(476, 23);
             this.textBox3.TabIndex = 5;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(954, 3);
+            this.button4.Location = new System.Drawing.Point(940, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 6;
@@ -296,7 +297,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1035, 3);
+            this.button5.Location = new System.Drawing.Point(1021, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 7;
@@ -305,7 +306,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1116, 3);
+            this.button6.Location = new System.Drawing.Point(3, 32);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 8;
@@ -314,9 +315,9 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(3, 507);
+            this.progressBar1.Location = new System.Drawing.Point(3, 473);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1216, 18);
+            this.progressBar1.Size = new System.Drawing.Size(1104, 16);
             this.progressBar1.TabIndex = 3;
             // 
             // tabPage2
@@ -324,7 +325,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1230, 576);
+            this.tabPage2.Size = new System.Drawing.Size(1116, 540);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -333,7 +334,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1238, 681);
+            this.ClientSize = new System.Drawing.Size(1124, 645);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
