@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myTools", "myTools.csproj", "{C15C55E5-DD2A-4676-A783-D0068BDC5399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Debug|x86.Build.0 = Debug|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Release|x86.ActiveCfg = Release|x86
+		{C15C55E5-DD2A-4676-A783-D0068BDC5399}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1B7F21C-5F10-4904-A2E2-C7FDED56D997}
+	EndGlobalSection
+EndGlobal
