@@ -18,7 +18,7 @@ namespace myTools
         public Form1()
         {
             InitializeComponent();
-            SetStyles();
+            //SetStyles();
         }
         #region 减少闪烁
         private void SetStyles()

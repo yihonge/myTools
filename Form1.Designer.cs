@@ -41,7 +41,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.axPlayer1 = new AxAPlayer3Lib.AxPlayer();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
@@ -55,6 +54,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.axPlayer1 = new AxAPlayer3Lib.AxPlayer();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -65,8 +65,8 @@
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axPlayer1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -198,17 +198,6 @@
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
-            // axPlayer1
-            // 
-            this.axPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axPlayer1.Enabled = true;
-            this.axPlayer1.Location = new System.Drawing.Point(0, 0);
-            this.axPlayer1.Name = "axPlayer1";
-            this.axPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axPlayer1.OcxState")));
-            this.axPlayer1.Size = new System.Drawing.Size(925, 462);
-            this.axPlayer1.TabIndex = 0;
-            this.axPlayer1.OnMessage += new AxAPlayer3Lib._IPlayerEvents_OnMessageEventHandler(this.axPlayer1_OnMessage);
-            // 
             // treeView1
             // 
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -330,6 +319,15 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // axPlayer1
+            // 
+            this.axPlayer1.Enabled = true;
+            this.axPlayer1.Location = new System.Drawing.Point(272, 159);
+            this.axPlayer1.Name = "axPlayer1";
+            this.axPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axPlayer1.OcxState")));
+            this.axPlayer1.Size = new System.Drawing.Size(279, 166);
+            this.axPlayer1.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -360,9 +358,9 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axPlayer1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
